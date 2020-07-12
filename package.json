@@ -1,0 +1,33 @@
+{
+  "name": "static-spa",
+  "version": "1.0.0",
+  "description": "Node.js HTTP middleware for serving static files of single-page-applications.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larryc5/static-spa.git"
+  },
+  "author": "larryc5",
+  "files": [
+    "dist/**/*"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larryc5/static-spa/issues"
+  },
+  "homepage": "https://github.com/larryc5/static-spa#readme",
+  "dependencies": {
+    "find-up": "^4.1.0",
+    "object-path": "^0.11.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.0.22",
+    "@types/object-path": "^0.11.0",
+    "typescript": "^3.9.6"
+  }
+}
